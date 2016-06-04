@@ -4,16 +4,16 @@ package de.deletelimits.funnymoney.service.pojos;
 import java.util.List;
 
 public class Transaction {
-    String transactionId;
-    List<String> message;
-    String amount;
-    String balance;
-    String currency;
-    List<String> purpose;
-    long bookingDate;
-    long valutaDate;
-    Reference reference;
-    String transactionType;
-    String transactionDetail;
-    List<String> links;
+    public String transactionId;
+    public List<String> message;
+    public String amount;
+    public String balance;
+    public String currency;
+    public List<String> purpose;
+    public long bookingDate;
+    public long valutaDate;
+    public Reference reference;
+    public String transactionType;
+    public String transactionDetail;
+    public List<String> links;
 }

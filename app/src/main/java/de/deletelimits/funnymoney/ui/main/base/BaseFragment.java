@@ -1,17 +1,19 @@
-package de.deletelimits.funnymoney.ui.main;
+package de.deletelimits.funnymoney.ui.main.base;
+
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 
 import de.deletelimits.funnymoney.app.util.Injector;
 import icepick.Icepick;
 
-public abstract class BaseActivity extends AppCompatActivity {
+public class BaseFragment extends Fragment {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        ((Injector) getApplication()).inject(this);
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        ((Injector) getActivity().getApplication()).inject(this);
         super.onCreate(savedInstanceState);
         Icepick.restoreInstanceState(this, savedInstanceState);
     }
@@ -21,4 +23,5 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onSaveInstanceState(bundle);
         Icepick.saveInstanceState(this, bundle);
     }
+
 }
