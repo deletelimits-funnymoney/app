@@ -13,6 +13,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.deletelimits.funnymoney.R;
 import de.deletelimits.funnymoney.service.PostbankAPI;
+import de.deletelimits.funnymoney.ui.main.base.BaseActivity;
 
 
 public class MainActivity extends BaseActivity {
