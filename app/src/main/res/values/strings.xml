@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Funny Money</string>
+    <string name="overview_activity_title">Übersicht</string>
+
+    <!--Labels-->
+    <string name="fix_label">Fixe Ausgaben</string>
+    <string name="variable_label">Variable Ausgaben</string>
+    <string name="detail_label">Details</string>
 </resources>
