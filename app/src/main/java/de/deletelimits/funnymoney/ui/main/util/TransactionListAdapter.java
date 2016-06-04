@@ -1,6 +1,7 @@
 package de.deletelimits.funnymoney.ui.main.util;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -26,13 +27,16 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
     private static DateFormat monthFormatter = new SimpleDateFormat("MMM", Locale.GERMAN);
     private final int greenColor;
     private final int redColor;
-
+    private final Drawable fixedDrawable;
+    private final Drawable variableDrawable;
     private List<TransactionMapping> transactions;
 
     public TransactionListAdapter(List<TransactionMapping> transactions, Context context) {
         this.greenColor = ContextCompat.getColor(context, R.color.primary);
         this.redColor = ContextCompat.getColor(context, R.color.red);
         this.transactions = transactions;
+        this.fixedDrawable = ContextCompat.getDrawable(context, R.drawable.rounded_background_fix);
+        this.variableDrawable = ContextCompat.getDrawable(context, R.drawable.rounded_background_variable);
     }
 
     @Override
@@ -83,6 +87,11 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
             referenceName.setText(transactionMapping.transaction.reference.accountHolder);
             amount.setTextColor((transactionMapping.transaction.amount.charAt(0) == '-') ? redColor : greenColor);
             amount.setText(transactionMapping.transaction.amount + " €");
+            if (transactionMapping.classification.cost_type.equals("fixed")) {
+                type.setBackground(fixedDrawable);
+            } else {
+                type.setBackground(variableDrawable);
+            }
             type.setText(transactionMapping.classification.cost_type);
             category.setText(transactionMapping.classification.group);
         }
