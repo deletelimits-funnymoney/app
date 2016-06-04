@@ -37,3 +37,4 @@ app/build
 app/src/main/res-mdicons/
 .DS_Store
 *.iml
+app.iml
