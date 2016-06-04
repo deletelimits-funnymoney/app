@@ -23,20 +23,20 @@ public class MainActivity extends BaseActivity {
     @Inject
     PostbankAPI postbankAPI;
 
-    @BindView(R.id.main_layout_sample_text)
-    TextView sampleText;
+//    @BindView(R.id.main_layout_sample_text)
+//    TextView sampleText;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
-        ButterKnife.bind(this);
+//        ButterKnife.bind(this);
 
     }
 
-    @OnClick(R.id.main_layout_button)
-    void onClick() {
-        Toast.makeText(this, "click!!", Toast.LENGTH_SHORT).show();
-    }
+//    @OnClick(R.id.main_layout_button)
+//    void onClick() {
+//        Toast.makeText(this, "click!!", Toast.LENGTH_SHORT).show();
+//    }
 
 }
