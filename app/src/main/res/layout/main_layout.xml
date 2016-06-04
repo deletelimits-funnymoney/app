@@ -79,7 +79,6 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="end"
                         android:layout_margin="@dimen/card_content_margin"
-                        android:text="Gesamt Kontostand: 1110€"
                         android:transitionName="total_amount" />
 
                     <TextView
