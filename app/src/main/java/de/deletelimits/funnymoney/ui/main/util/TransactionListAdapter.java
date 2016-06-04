@@ -1,6 +1,7 @@
 package de.deletelimits.funnymoney.ui.main.util;
 
-import android.graphics.Color;
+import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -23,10 +24,14 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
 
     private static DateFormat dayFormatter = new SimpleDateFormat("d", Locale.GERMAN);
     private static DateFormat monthFormatter = new SimpleDateFormat("MMM", Locale.GERMAN);
+    private final int greenColor;
+    private final int redColor;
 
     private List<Transaction> transactions;
 
-    public TransactionListAdapter(List<Transaction> transactions) {
+    public TransactionListAdapter(List<Transaction> transactions, Context context) {
+        this.greenColor = ContextCompat.getColor(context, R.color.primary);
+        this.redColor = ContextCompat.getColor(context, R.color.red);
         this.transactions = transactions;
     }
 
@@ -48,7 +53,7 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
         return transactions.size();
     }
 
-    static public class TransactionListItemViewHolder extends RecyclerView.ViewHolder {
+    public class TransactionListItemViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.transaction_list_item_day)
         TextView dateDay;
@@ -71,7 +76,7 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
             dateMonth.setText(String.valueOf(monthFormatter.format(new Date(transaction.bookingDate))));
             reason.setText(TextUtils.join(" ", transaction.purpose.toArray()));
             referenceName.setText(transaction.reference.accountHolder);
-            amount.setTextColor((transaction.amount.charAt(0) == '-') ? Color.RED : Color.GREEN);
+            amount.setTextColor((transaction.amount.charAt(0) == '-') ? redColor : greenColor);
             amount.setText(transaction.amount + " €");
         }
     }
