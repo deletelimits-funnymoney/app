@@ -55,17 +55,26 @@
                 android:id="@+id/available_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Verfügbar"
+                android:text="@string/available_label"
                 android:layout_margin="@dimen/card_content_margin"/>
 
                 <TextView
                     android:id="@+id/available_amount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="end"
                     android:text="470€"
                     android:layout_margin="@dimen/card_content_margin"
                     android:textSize="45sp"
-                    android:layout_gravity="end"/>
+                    />
+
+                <TextView
+                    android:id="@+id/total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Gesamt Kontostand: 1110€"
+                    android:layout_margin="@dimen/card_content_margin"/>
 
                 <TextView
                     android:id="@+id/detail_button_overall"
@@ -76,7 +85,8 @@
                     android:clickable="true"
                     android:background="?attr/selectableItemBackground"
                     android:text="@string/detail_label"
-                    android:textColor="@color/primary" />
+                    android:textColor="@color/primary"
+                    android:onClick="goToTransactions"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
 

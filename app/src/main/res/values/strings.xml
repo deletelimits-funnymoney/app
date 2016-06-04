@@ -2,8 +2,10 @@
 <resources>
     <string name="app_name">Funny Money</string>
     <string name="overview_activity_title">Übersicht</string>
+    <string name="transaction_activity_title">Transaktionen</string>
 
     <!--Labels-->
+    <string name="available_label">Verfügbar</string>
     <string name="fix_label">Fixe Ausgaben</string>
     <string name="variable_label">Variable Ausgaben</string>
     <string name="detail_label">Details</string>

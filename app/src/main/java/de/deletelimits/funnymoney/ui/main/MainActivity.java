@@ -1,8 +1,10 @@
 package de.deletelimits.funnymoney.ui.main;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +36,10 @@ public class MainActivity extends BaseActivity {
 
     }
 
+    public void goToTransactions(View v){
+        Intent intent = new Intent(this, TransactionListActivity.class);
+        startActivity(intent);
+    }
 //    @OnClick(R.id.main_layout_button)
 //    void onClick() {
 //        Toast.makeText(this, "click!!", Toast.LENGTH_SHORT).show();
