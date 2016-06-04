@@ -1,0 +1,128 @@
+[
+  {
+    "transactionId": "00505600B0711EE688CCC88D401CF67E01",
+    "classification": {
+      "group": "income",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E02",
+    "classification": {
+      "group": "communication",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E03",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E04",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E05",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E06",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E07",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E08",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E09",
+    "classification": {
+      "group": "fun_gadgets",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E10",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E11",
+    "classification": {
+      "group": "income",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E12",
+    "classification": {
+      "group": "communication",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E13",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E14",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E15",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E16",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E17",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E18",
+    "classification": {
+      "group": "living",
+      "cost_type": "variable"
+    }
+  }
+]
