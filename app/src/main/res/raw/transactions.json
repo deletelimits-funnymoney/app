@@ -1,483 +1,470 @@
-{
-  "messages": [],
-  "links": [
-    {
-      "rel": "self",
-      "href": "https://hackathon.postbank.de:443/bank-api/blau/postbankid/accounts/giro/DE60100100100008020111/transactions?size=100&page=1"
-    },
-    {
-      "rel": "next",
-      "href": "https://hackathon.postbank.de:443/bank-api/blau/postbankid/accounts/giro/DE60100100100008020111/transactions?size=100&page=2"
-    }
-  ],
-  "content": [
-    {
+[
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC88D401CF67E",
+    "amount": "2000.00",
+    "balance": "2300.00",
+    "currency": "EUR",
+    "purpose": [
+      "GEHALT MAERZ",
+      "EVIL CORP"
+    ],
+    "bookingDate": 1459175226000,
+    "valutaDate": 1459175226000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC88D401CF67E",
-      "amount": "2000.00",
-      "balance": "2300.00",
-      "currency": "EUR",
-      "purpose": [
-        "GEHALT MAERZ",
-        "EVIL CORP"
-      ],
-      "bookingDate": 1459175226000,
-      "valutaDate": 1459175226000,
-      "reference": {
-        "messages": [],
-        "iban": "DE666123123123123123",
-        "bic": "GEN666",
-        "paymentName": "Evil Corp",
-        "bankName": "Postbank",
-        "accountNumber": "666666",
-        "accountHolder": "Evil Corp",
-        "links": []
-      },
-      "transactionType": "Gutschrift",
-      "transactionDetail": null,
+      "iban": "DE666123123123123123",
+      "bic": "GEN666",
+      "paymentName": "Evil Corp",
+      "bankName": "Postbank",
+      "accountNumber": "666666",
+      "accountHolder": "Evil Corp",
       "links": []
     },
-    {
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-24.99",
+    "balance": "2275.01",
+    "currency": "EUR",
+    "purpose": [
+      "Rechnung M211160 146484016 ",
+      "o2 sagt Danke"
+    ],
+    "bookingDate": 1459520826000,
+    "valutaDate": 1459520826000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-24.99",
-      "balance": "2275.01",
-      "currency": "EUR",
-      "purpose": [
-        "Rechnung M211160 146484016 ",
-        "o2 sagt Danke"
-      ],
-      "bookingDate": 1459520826000,
-      "valutaDate": 1459520826000,
-      "reference": {
-        "messages": [],
-        "iban": "DE9700000000142462",
-        "bic": "GEN555",
-        "paymentName": "Telefonica Germany GmbH",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "Telefonica Germany GmbH",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "Telefonica Germany GmbH",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Telefonica Germany GmbH",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-725.00",
+    "balance": "1550.01",
+    "currency": "EUR",
+    "purpose": [
+      "Miete Musterstr. 13",
+      "April 2016"
+    ],
+    "bookingDate": 1459607226000,
+    "valutaDate": 1459607226000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-725.00",
-      "balance": "1550.01",
-      "currency": "EUR",
-      "purpose": [
-        "Miete Musterstr. 13",
-        "April 2016"
-      ],
-      "bookingDate": 1459607226000,
-      "valutaDate": 1459607226000,
-      "reference": {
-        "messages": [],
-        "iban": "DE60100100100008020111",
-        "bic": "GEN123",
-        "paymentName": "Volker Vermieter",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "Volker Vermieter",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE60100100100008020111",
+      "bic": "GEN123",
+      "paymentName": "Volker Vermieter",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Volker Vermieter",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-74.00",
+    "balance": "1476,01",
+    "currency": "EUR",
+    "purpose": [
+      "Kundennumm",
+      "er: 000204579618"
+    ],
+    "bookingDate": 1459945626000,
+    "valutaDate": 1459945626000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-74.00",
-      "balance": "1476,01",
-      "currency": "EUR",
-      "purpose": [
-        "Kundennumm",
-        "er: 000204579618"
-      ],
-      "bookingDate": 1459945626000,
-      "valutaDate": 1459945626000,
-      "reference": {
-        "messages": [],
-        "iban": "DE9700000000142462",
-        "bic": "GEN555",
-        "paymentName": "RheinEnergie AG",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "RheinEnergie AG",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "RheinEnergie AG",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "RheinEnergie AG",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-14.13",
+    "balance": "1461.88",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
+      "Ref. 8ID16112320012/123123"
+    ],
+    "bookingDate": 1460635266000,
+    "valutaDate": 1460635266000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-14.13",
-      "balance": "1461.88",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
-        "Ref. 8ID16112320012/123123"
-      ],
-      "bookingDate": 1460635266000,
-      "valutaDate": 1460635266000,
-      "reference": {
-        "messages": [],
-        "iban": "DE88600501017402099997",
-        "bic": "GEN777",
-        "paymentName": "DM DROGERIEMARKT SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE88600501017402099997",
+      "bic": "GEN777",
+      "paymentName": "DM DROGERIEMARKT SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-47.22",
+    "balance": "1414.66",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A2607501/12333"
+    ],
+    "bookingDate": 1460642466000,
+    "valutaDate": 1460642466000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-47.22",
-      "balance": "1414.66",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A2607501/12333"
-      ],
-      "bookingDate": 1460642466000,
-      "valutaDate": 1460642466000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-35.01",
+    "balance": "1379.65",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
+      "Ref. 8ID16112320012/12333"
+    ],
+    "bookingDate": 1460916066000,
+    "valutaDate": 1460916066000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-35.01",
-      "balance": "1379.65",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
-        "Ref. 8ID16112320012/12333"
-      ],
-      "bookingDate": 1460916066000,
-      "valutaDate": 1460916066000,
-      "reference": {
-        "messages": [],
-        "iban": "DE88600501017402099997",
-        "bic": "GEN777",
-        "paymentName": "DM DROGERIEMARKT SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE88600501017402099997",
+      "bic": "GEN777",
+      "paymentName": "DM DROGERIEMARKT SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-39.28",
+    "balance": "1340.37",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A26075121/12333"
+    ],
+    "bookingDate": 1461236466000,
+    "valutaDate": 1461236466000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-39.28",
-      "balance": "1340.37",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A26075121/12333"
-      ],
-      "bookingDate": 1461236466000,
-      "valutaDate": 1461236466000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-28.89",
+    "balance": "1311.48",
+    "currency": "EUR",
+    "purpose": [
+      "Amazon.de 2620806122513074",
+      ""
+    ],
+    "bookingDate": 1461587226000,
+    "valutaDate": 1461587226000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-28.89",
-      "balance": "1311.48",
-      "currency": "EUR",
-      "purpose": [
-        "Amazon.de 2620806122513074",
-        ""
-      ],
-      "bookingDate": 1461587226000,
-      "valutaDate": 1461587226000,
-      "reference": {
-        "messages": [],
-        "iban": "DE2411Z00000561652",
-        "bic": "GEN555",
-        "paymentName": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE2411Z00000561652",
+      "bic": "GEN555",
+      "paymentName": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-50.03",
+    "balance": "1261.45",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A26075121/14444"
+    ],
+    "bookingDate": 1461841266000,
+    "valutaDate": 1461841266000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-50.03",
-      "balance": "1261.45",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A26075121/14444"
-      ],
-      "bookingDate": 1461841266000,
-      "valutaDate": 1461841266000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC88D401CF67E",
+    "amount": "2000.00",
+    "balance": "3261.45",
+    "currency": "EUR",
+    "purpose": [
+      "GEHALT APRIL",
+      "EVIL CORP"
+    ],
+    "bookingDate": 1461853626000,
+    "valutaDate": 1461853626000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC88D401CF67E",
-      "amount": "2000.00",
-      "balance": "3261.45",
-      "currency": "EUR",
-      "purpose": [
-        "GEHALT APRIL",
-        "EVIL CORP"
-      ],
-      "bookingDate": 1461853626000,
-      "valutaDate": 1461853626000,
-      "reference": {
-        "messages": [],
-        "iban": "DE666123123123123123",
-        "bic": "GEN666",
-        "paymentName": "Evil Corp",
-        "bankName": "Postbank",
-        "accountNumber": "666666",
-        "accountHolder": "Evil Corp",
-        "links": []
-      },
-      "transactionType": "Gutschrift",
-      "transactionDetail": null,
+      "iban": "DE666123123123123123",
+      "bic": "GEN666",
+      "paymentName": "Evil Corp",
+      "bankName": "Postbank",
+      "accountNumber": "666666",
+      "accountHolder": "Evil Corp",
       "links": []
     },
-    {
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-24.99",
+    "balance": "3236.46",
+    "currency": "EUR",
+    "purpose": [
+      "Rechnung M211160 146484018 ",
+      "o2 sagt Danke"
+    ],
+    "bookingDate": 1462105626000,
+    "valutaDate": 1462105626000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-24.99",
-      "balance": "3236.46",
-      "currency": "EUR",
-      "purpose": [
-        "Rechnung M211160 146484018 ",
-        "o2 sagt Danke"
-      ],
-      "bookingDate": 1462105626000,
-      "valutaDate": 1462105626000,
-      "reference": {
-        "messages": [],
-        "iban": "DE9700000000142462",
-        "bic": "GEN555",
-        "paymentName": "Telefonica Germany GmbH",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "Telefonica Germany GmbH",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "Telefonica Germany GmbH",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Telefonica Germany GmbH",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-725.00",
+    "balance": "2511.46",
+    "currency": "EUR",
+    "purpose": [
+      "Miete Musterstr. 13",
+      "Mai 2016"
+    ],
+    "bookingDate": 1462199226000,
+    "valutaDate": 1462199226000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-725.00",
-      "balance": "2511.46",
-      "currency": "EUR",
-      "purpose": [
-        "Miete Musterstr. 13",
-        "Mai 2016"
-      ],
-      "bookingDate": 1462199226000,
-      "valutaDate": 1462199226000,
-      "reference": {
-        "messages": [],
-        "iban": "DE60100100100008020111",
-        "bic": "GEN123",
-        "paymentName": "Volker Vermieter",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "Volker Vermieter",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE60100100100008020111",
+      "bic": "GEN123",
+      "paymentName": "Volker Vermieter",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Volker Vermieter",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-11.89",
+    "balance": "2499.57",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
+      "Ref. 8ID16111330012/12333"
+    ],
+    "bookingDate": 1462384866000,
+    "valutaDate": 1462384866000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-11.89",
-      "balance": "2499.57",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung DM FIL.0030 H:65132//KOELN/DE",
-        "Ref. 8ID16111330012/12333"
-      ],
-      "bookingDate": 1462384866000,
-      "valutaDate": 1462384866000,
-      "reference": {
-        "messages": [],
-        "iban": "DE88600501017402099997",
-        "bic": "GEN777",
-        "paymentName": "DM DROGERIEMARKT SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE88600501017402099997",
+      "bic": "GEN777",
+      "paymentName": "DM DROGERIEMARKT SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "DM DROGERIEMARKT SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-18.03",
+    "balance": "2481.54",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A26075121/15555"
+    ],
+    "bookingDate": 1462446066000,
+    "valutaDate": 1462446066000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-18.03",
-      "balance": "2481.54",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A26075121/15555"
-      ],
-      "bookingDate": 1462446066000,
-      "valutaDate": 1462446066000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-74.00",
+    "balance": "2407.54",
+    "currency": "EUR",
+    "purpose": [
+      "Kundennumm",
+      "er: 000204579618"
+    ],
+    "bookingDate": 1462537626000,
+    "valutaDate": 1462537626000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-74.00",
-      "balance": "2407.54",
-      "currency": "EUR",
-      "purpose": [
-        "Kundennumm",
-        "er: 000204579618"
-      ],
-      "bookingDate": 1462537626000,
-      "valutaDate": 1462537626000,
-      "reference": {
-        "messages": [],
-        "iban": "DE9700000000142462",
-        "bic": "GEN555",
-        "paymentName": "RheinEnergie AG",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "RheinEnergie AG",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "RheinEnergie AG",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "RheinEnergie AG",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-49.03",
+    "balance": "2358.51",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A26075121/16666"
+    ],
+    "bookingDate": 1463050866000,
+    "valutaDate": 1463050866000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-49.03",
-      "balance": "2358.51",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A26075121/16666"
-      ],
-      "bookingDate": 1463050866000,
-      "valutaDate": 1463050866000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
     },
-    {
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E",
+    "amount": "-44.76",
+    "balance": "2313.75",
+    "currency": "EUR",
+    "purpose": [
+      "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
+      "Ref. 9CD16151A26075121/17777"
+    ],
+    "bookingDate": 1463673666000,
+    "valutaDate": 1463673666000,
+    "reference": {
       "messages": [],
-      "transactionId": "00505600B0711EE688CCC6D7E21A367E",
-      "amount": "-44.76",
-      "balance": "2313.75",
-      "currency": "EUR",
-      "purpose": [
-        "Kartenzahlung ALDI GMBH + CO. KG//KOELN/DE",
-        "Ref. 9CD16151A26075121/17777"
-      ],
-      "bookingDate": 1463673666000,
-      "valutaDate": 1463673666000,
-      "reference": {
-        "messages": [],
-        "iban": "DE77300500000001158518",
-        "bic": "GEN888",
-        "paymentName": "ALDI SUED SAGT DANKE",
-        "bankName": "Postbank",
-        "accountNumber": "7007008",
-        "accountHolder": "ALDI SUED SAGT DANKE",
-        "links": []
-      },
-      "transactionType": "Abbuchung",
-      "transactionDetail": null,
+      "iban": "DE77300500000001158518",
+      "bic": "GEN888",
+      "paymentName": "ALDI SUED SAGT DANKE",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "ALDI SUED SAGT DANKE",
       "links": []
-    }
-  ]
-}
+    },
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  }
+]
