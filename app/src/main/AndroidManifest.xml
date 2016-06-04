@@ -14,7 +14,8 @@
 
         <activity
             android:name=".ui.main.MainActivity"
-            android:label="@string/overview_activity_title"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +25,11 @@
 
         </activity>
 
-        <activity android:name=".ui.main.TransactionListActivity"
-            android:parentActivityName=".ui.main.MainActivity"
+        <activity
+            android:name=".ui.main.TransactionListActivity"
             android:label="@string/overview_activity_title"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        </activity>
+            android:parentActivityName=".ui.main.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>
