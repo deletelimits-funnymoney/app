@@ -28,7 +28,6 @@ android {
             abortOnError false
         }
     }
-
 }
 
 dependencies {
@@ -47,4 +46,7 @@ dependencies {
     // state recovery
     compile 'frankiesardo:icepick:3.2.0'
     apt 'frankiesardo:icepick-processor:3.2.0'
+    // Networking
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
 }
