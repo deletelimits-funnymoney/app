@@ -18,7 +18,7 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.deletelimits.funnymoney.R;
-import de.deletelimits.funnymoney.service.pojos.Transaction;
+import de.deletelimits.funnymoney.service.pojos.TransactionMapping;
 
 public class TransactionListAdapter extends RecyclerView.Adapter<TransactionListAdapter.TransactionListItemViewHolder> {
 
@@ -27,9 +27,9 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
     private final int greenColor;
     private final int redColor;
 
-    private List<Transaction> transactions;
+    private List<TransactionMapping> transactions;
 
-    public TransactionListAdapter(List<Transaction> transactions, Context context) {
+    public TransactionListAdapter(List<TransactionMapping> transactions, Context context) {
         this.greenColor = ContextCompat.getColor(context, R.color.primary);
         this.redColor = ContextCompat.getColor(context, R.color.red);
         this.transactions = transactions;
@@ -66,18 +66,25 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
         @BindView(R.id.transaction_list_item_amount)
         TextView amount;
 
+        @BindView(R.id.transaction_list_item_type)
+        TextView type;
+        @BindView(R.id.transaction_list_item_category)
+        TextView category;
+
         public TransactionListItemViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
 
-        public void setData(Transaction transaction) {
-            dateDay.setText(String.valueOf(dayFormatter.format(new Date(transaction.bookingDate))));
-            dateMonth.setText(String.valueOf(monthFormatter.format(new Date(transaction.bookingDate))));
-            reason.setText(TextUtils.join(" ", transaction.purpose.toArray()));
-            referenceName.setText(transaction.reference.accountHolder);
-            amount.setTextColor((transaction.amount.charAt(0) == '-') ? redColor : greenColor);
-            amount.setText(transaction.amount + " €");
+        public void setData(TransactionMapping transactionMapping) {
+            dateDay.setText(String.valueOf(dayFormatter.format(new Date(transactionMapping.transaction.bookingDate))));
+            dateMonth.setText(String.valueOf(monthFormatter.format(new Date(transactionMapping.transaction.bookingDate))));
+            reason.setText(TextUtils.join(" ", transactionMapping.transaction.purpose.toArray()));
+            referenceName.setText(transactionMapping.transaction.reference.accountHolder);
+            amount.setTextColor((transactionMapping.transaction.amount.charAt(0) == '-') ? redColor : greenColor);
+            amount.setText(transactionMapping.transaction.amount + " €");
+            type.setText(transactionMapping.classification.cost_type);
+            category.setText(transactionMapping.classification.group);
         }
     }
 }

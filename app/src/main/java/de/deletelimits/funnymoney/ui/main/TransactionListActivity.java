@@ -29,7 +29,7 @@ public class TransactionListActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.transaction_list);
         ButterKnife.bind(this);
-        recyclerView.setAdapter(new TransactionListAdapter(postbankAPI.getTransactions(), this));
+        recyclerView.setAdapter(new TransactionListAdapter(postbankAPI.getTransactionMappings(), this));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
