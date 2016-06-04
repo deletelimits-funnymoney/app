@@ -1,0 +1,13 @@
+mdicons {
+    defcolor 'app_color', '#3F51B5'
+    defcolor 'white', '#FFFFFF'
+
+    assets {
+        appIcon {
+            densities 'mdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'
+            colors 'app_color'
+            sizes '48dp'
+            names 'wifi_tethering'
+        }
+    }
+}

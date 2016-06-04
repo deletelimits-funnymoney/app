@@ -30,3 +30,9 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+.idea
+build
+app/build
+app/src/main/res-mdicons/
+.DS_Store
