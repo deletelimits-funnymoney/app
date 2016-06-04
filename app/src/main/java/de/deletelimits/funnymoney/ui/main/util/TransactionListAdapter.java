@@ -1,7 +1,9 @@
 package de.deletelimits.funnymoney.ui.main.util;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -80,6 +82,7 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
             ButterKnife.bind(this, itemView);
         }
 
+        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
         public void setData(TransactionMapping transactionMapping) {
             dateDay.setText(String.valueOf(dayFormatter.format(new Date(transactionMapping.transaction.bookingDate))));
             dateMonth.setText(String.valueOf(monthFormatter.format(new Date(transactionMapping.transaction.bookingDate))));
@@ -87,12 +90,17 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
             referenceName.setText(transactionMapping.transaction.reference.accountHolder);
             amount.setTextColor((transactionMapping.transaction.amount.charAt(0) == '-') ? redColor : greenColor);
             amount.setText(transactionMapping.transaction.amount + " €");
+            int paddingLeft = type.getPaddingLeft();
+            int paddingRight = type.getPaddingRight();
+            int paddingBottom = type.getPaddingBottom();
+            int paddingTop = type.getPaddingTop();
             if (transactionMapping.classification.cost_type.equals("fixed")) {
                 type.setBackground(fixedDrawable);
             } else {
                 type.setBackground(variableDrawable);
             }
             type.setText(transactionMapping.classification.cost_type);
+            type.setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
             category.setText(transactionMapping.classification.group);
         }
     }
