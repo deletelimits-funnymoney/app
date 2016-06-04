@@ -69,7 +69,8 @@ public class ChartPlayground extends BaseFragment {
             barEntries.add(new BarEntry(values.get(i), i));
         }
         BarDataSet set1 = new BarDataSet(barEntries, dataSetName);
-        set1.setColor(R.color.primary);
+//        set1.setColor(R.color.primary);
+        set1.setColor(ColorTemplate.rgb("00aa55"));
         ArrayList<IBarDataSet> dataSets = new ArrayList<>();
         dataSets.add(set1);
         return dataSets;
