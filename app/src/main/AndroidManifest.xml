@@ -20,8 +20,15 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
 
+        <activity android:name=".ui.main.TransactionListActivity"
+            android:parentActivityName=".ui.main.MainActivity"
+            android:label="@string/overview_activity_title"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
