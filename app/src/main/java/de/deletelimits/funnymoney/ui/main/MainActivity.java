@@ -32,6 +32,7 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.main_layout);
 //        ButterKnife.bind(this);
 
+
     }
 
 //    @OnClick(R.id.main_layout_button)
