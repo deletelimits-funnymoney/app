@@ -21,9 +21,9 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             android:backgroundTint="@color/primary"
-            app:title="@string/transaction_activity_title"
+            app:title="@string/overview_activity_title"
             app:titleMarginTop="13dp"
-            app:titleTextColor="@color/primary_light"
+            app:titleTextColor="@color/primary_text"
             app:layout_scrollFlags="scroll|enterAlways">
 
 
