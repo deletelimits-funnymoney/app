@@ -4,21 +4,17 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
+import de.deletelimits.funnymoney.app.Application;
 import de.deletelimits.funnymoney.service.PostbankAPI;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import de.deletelimits.funnymoney.service.PostbankAPIMockImpl;
 
 @Module
 public class ServiceModule {
 
     @Provides
     @Singleton
-    PostbankAPI provideWifiService() {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.github.com")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        return retrofit.create(PostbankAPI.class);
+    PostbankAPI provideWifiService(Application application) {
+        return new PostbankAPIMockImpl(application);
     }
 
 }
