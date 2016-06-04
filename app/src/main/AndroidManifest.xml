@@ -9,7 +9,6 @@
         android:allowBackup="true"
         android:fullBackupContent="false"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_wifi_tethering_app_color_48dp"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 

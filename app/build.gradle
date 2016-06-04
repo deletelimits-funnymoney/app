@@ -1,10 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 apply plugin: 'me.tatarka.retrolambda'
-apply plugin: 'com.tmiyamon.mdicons'
 apply plugin: 'idea'
-
-apply from: 'icons.gradle'
 
 android {
     compileSdkVersion 23
