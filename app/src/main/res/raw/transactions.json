@@ -1,0 +1,2602 @@
+[
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC88D401CF67E",
+    "amount": "75.00",
+    "balance": "506750.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC864F495367E",
+    "amount": "75.00",
+    "balance": "506675.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC864F492F67E",
+    "amount": "75.00",
+    "balance": "506600.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC864F490B67E",
+    "amount": "75.00",
+    "balance": "506525.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC864F48E767E",
+    "amount": "75.00",
+    "balance": "506450.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC864F48C367E",
+    "amount": "75.00",
+    "balance": "506375.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC036567E",
+    "amount": "75.00",
+    "balance": "506300.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC034167E",
+    "amount": "75.00",
+    "balance": "506225.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC031D67E",
+    "amount": "75.00",
+    "balance": "506150.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC02F967E",
+    "amount": "75.00",
+    "balance": "506075.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC02D567E",
+    "amount": "75.00",
+    "balance": "506000.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC02B167E",
+    "amount": "75.00",
+    "balance": "505925.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC028D67E",
+    "amount": "75.00",
+    "balance": "505850.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC83EC026967E",
+    "amount": "75.00",
+    "balance": "505775.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8AB767E",
+    "amount": "75.00",
+    "balance": "505700.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8A9367E",
+    "amount": "75.00",
+    "balance": "505625.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8A6F67E",
+    "amount": "75.00",
+    "balance": "505550.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8A4B67E",
+    "amount": "75.00",
+    "balance": "505475.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8A2767E",
+    "amount": "75.00",
+    "balance": "505400.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF8A0367E",
+    "amount": "75.00",
+    "balance": "505325.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF89DF67E",
+    "amount": "75.00",
+    "balance": "505250.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF89BB67E",
+    "amount": "75.00",
+    "balance": "505175.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF899767E",
+    "amount": "75.00",
+    "balance": "505100.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF897367E",
+    "amount": "75.00",
+    "balance": "505025.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC81AF894F67E",
+    "amount": "75.00",
+    "balance": "504950.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7FA6DF5367E",
+    "amount": "75.00",
+    "balance": "504875.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7FA6DF2F67E",
+    "amount": "75.00",
+    "balance": "504800.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC8058649967E",
+    "amount": "75.00",
+    "balance": "504725.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC8058647567E",
+    "amount": "75.00",
+    "balance": "504650.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC8058645167E",
+    "amount": "75.00",
+    "balance": "504575.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC8058642D67E",
+    "amount": "75.00",
+    "balance": "504500.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC8058640967E",
+    "amount": "75.00",
+    "balance": "504425.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7E3F53CB67E",
+    "amount": "75.00",
+    "balance": "504350.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7E3F53A767E",
+    "amount": "75.00",
+    "balance": "504275.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7E3F538367E",
+    "amount": "75.00",
+    "balance": "504200.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7E3F535F67E",
+    "amount": "75.00",
+    "balance": "504125.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7E3F533B67E",
+    "amount": "75.00",
+    "balance": "504050.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B96919367E",
+    "amount": "75.00",
+    "balance": "503975.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B96916F67E",
+    "amount": "75.00",
+    "balance": "503900.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B96914B67E",
+    "amount": "75.00",
+    "balance": "503825.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B96912767E",
+    "amount": "75.00",
+    "balance": "503750.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B96910367E",
+    "amount": "75.00",
+    "balance": "503675.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7B9690DF67E",
+    "amount": "75.00",
+    "balance": "503600.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BC8B67E",
+    "amount": "75.00",
+    "balance": "503525.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BC6767E",
+    "amount": "75.00",
+    "balance": "503450.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BC4367E",
+    "amount": "75.00",
+    "balance": "503375.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BC1F67E",
+    "amount": "75.00",
+    "balance": "503300.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BBFB67E",
+    "amount": "75.00",
+    "balance": "503225.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BBD767E",
+    "amount": "75.00",
+    "balance": "503150.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BBB367E",
+    "amount": "75.00",
+    "balance": "503075.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BB8F67E",
+    "amount": "75.00",
+    "balance": "503000.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BB6B67E",
+    "amount": "75.00",
+    "balance": "502925.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BB4767E",
+    "amount": "75.00",
+    "balance": "502850.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BB2367E",
+    "amount": "75.00",
+    "balance": "502775.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC7930BAFF67E",
+    "amount": "75.00",
+    "balance": "502700.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14F6367E",
+    "amount": "75.00",
+    "balance": "502625.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14F3F67E",
+    "amount": "75.00",
+    "balance": "502550.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14F1B67E",
+    "amount": "75.00",
+    "balance": "502475.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14EF767E",
+    "amount": "75.00",
+    "balance": "502400.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14ED367E",
+    "amount": "75.00",
+    "balance": "502325.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14EAF67E",
+    "amount": "75.00",
+    "balance": "502250.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14E8B67E",
+    "amount": "75.00",
+    "balance": "502175.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14E6767E",
+    "amount": "75.00",
+    "balance": "502100.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14E4367E",
+    "amount": "75.00",
+    "balance": "502025.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC76D14E1F67E",
+    "amount": "75.00",
+    "balance": "501950.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754AF167E",
+    "amount": "75.00",
+    "balance": "501875.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754ACB67E",
+    "amount": "75.00",
+    "balance": "501800.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754AA767E",
+    "amount": "75.00",
+    "balance": "501725.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754A8367E",
+    "amount": "75.00",
+    "balance": "501650.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754A5F67E",
+    "amount": "75.00",
+    "balance": "501575.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC74754A3B67E",
+    "amount": "75.00",
+    "balance": "501500.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D649367E",
+    "amount": "75.00",
+    "balance": "501425.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D646F67E",
+    "amount": "75.00",
+    "balance": "501350.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D644B67E",
+    "amount": "75.00",
+    "balance": "501275.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D642767E",
+    "amount": "75.00",
+    "balance": "501200.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D640367E",
+    "amount": "75.00",
+    "balance": "501125.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D63DF67E",
+    "amount": "75.00",
+    "balance": "501050.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D63BB67E",
+    "amount": "75.00",
+    "balance": "500975.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC724D639767E",
+    "amount": "75.00",
+    "balance": "500900.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD5EF67E",
+    "amount": "75.00",
+    "balance": "500825.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD5CB67E",
+    "amount": "75.00",
+    "balance": "500750.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD5A767E",
+    "amount": "75.00",
+    "balance": "500675.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD58367E",
+    "amount": "75.00",
+    "balance": "500600.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD55F67E",
+    "amount": "75.00",
+    "balance": "500525.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD53B67E",
+    "amount": "75.00",
+    "balance": "500450.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD51767E",
+    "amount": "75.00",
+    "balance": "500375.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD4F367E",
+    "amount": "75.00",
+    "balance": "500300.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD4CF67E",
+    "amount": "75.00",
+    "balance": "500225.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6FABD4AB67E",
+    "amount": "75.00",
+    "balance": "500150.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E233167E",
+    "amount": "75.00",
+    "balance": "500075.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E230D67E",
+    "amount": "75.00",
+    "balance": "500000.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E22E967E",
+    "amount": "75.00",
+    "balance": "499925.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E22C567E",
+    "amount": "75.00",
+    "balance": "499850.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E22A167E",
+    "amount": "75.00",
+    "balance": "499775.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E227D67E",
+    "amount": "75.00",
+    "balance": "499700.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E225767E",
+    "amount": "75.00",
+    "balance": "499625.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E223367E",
+    "amount": "75.00",
+    "balance": "499550.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E220F67E",
+    "amount": "75.00",
+    "balance": "499475.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21EB67E",
+    "amount": "75.00",
+    "balance": "499400.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21C767E",
+    "amount": "75.00",
+    "balance": "499325.00",
+    "currency": "EUR",
+    "purpose": [
+      "Buchung -  (Haben Giro) Übe",
+      "rweisungsgutschrift"
+    ],
+    "bookingDate": 1464127200000,
+    "valutaDate": 1464127200000,
+    "reference": {
+      "messages": [],
+      "iban": null,
+      "bic": null,
+      "paymentName": "Michael Mustermann",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Michael Mustermann",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  }
+]

@@ -1,12 +1,10 @@
 package de.deletelimits.funnymoney.service;
 
-import org.json.JSONObject;
+import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.http.GET;
+import de.deletelimits.funnymoney.service.pojos.Transaction;
 
 public interface PostbankAPI {
 
-    @GET("/")
-    Call<JSONObject> getApiInfo();
+    List<Transaction> getTransactions();
 }
