@@ -12,7 +12,6 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/appbar_padding_top"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
@@ -21,9 +20,10 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:backgroundTint="@color/primary"
             app:title="@string/overview_activity_title"
             app:titleMarginTop="13dp"
-            app:titleTextColor="@color/primary_text"
+            app:titleTextColor="@color/primary_light"
             app:layout_scrollFlags="scroll|enterAlways">
 
 
@@ -44,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             card_view:cardCornerRadius="4dp"
+            android:transitionName="total_card"
             android:layout_margin="8dp"
             android:elevation="4dp">
 
@@ -63,6 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
+                    android:transitionName="main_amount"
                     android:text="470€"
                     android:layout_margin="@dimen/card_content_margin"
                     android:textSize="45sp"
@@ -74,6 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
                     android:text="Gesamt Kontostand: 1110€"
+                    android:transitionName="total_amount"
                     android:layout_margin="@dimen/card_content_margin"/>
 
                 <TextView
