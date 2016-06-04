@@ -37,7 +37,7 @@ public class FactFactory {
         return result;
     }
 
-    protected Set<String> collectGroups(Date start, Date end) {
+    public Set<String> collectGroups(Date start, Date end) {
         Set<String> result = new HashSet<String>();
 
         List<TransactionMapping> transactionMappings = getTransactionMappingList(start, end);
