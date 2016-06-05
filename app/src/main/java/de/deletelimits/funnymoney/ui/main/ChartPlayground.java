@@ -95,7 +95,7 @@ public class ChartPlayground extends BaseFragment {
         ArrayList<IBarDataSet> dataSets = new ArrayList<>();
         dataSets.add(valuesToDatasets(apaValues, "apartment", "FFA500"));
         dataSets.add(valuesToDatasets(comValues, "communication", "ff44dd"));
-        dataSets.add(valuesToDatasets(funValues, "living", "ffcc33"));
+        dataSets.add(valuesToDatasets(funValues, "random values", "ffcc33"));
         BarData data = new BarData(labels, dataSets);
         chart.setData(data);
         chart.invalidate();
