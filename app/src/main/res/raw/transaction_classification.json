@@ -1,19 +1,5 @@
 [
   {
-    "transactionId": "00505600B0711EE688CCC6D7E21A367E22",
-    "classification": {
-      "group": "communication",
-      "cost_type": "variable"
-    }
-  },
-  {
-    "transactionId": "00505600B0711EE688CCC6D7E21A367E16",
-    "classification": {
-      "group": "communication",
-      "cost_type": "fixed"
-    }
-  },
-  {
     "transactionId": "00505600B0711EE688CCC88D401CF67E01",
     "classification": {
       "group": "income",
