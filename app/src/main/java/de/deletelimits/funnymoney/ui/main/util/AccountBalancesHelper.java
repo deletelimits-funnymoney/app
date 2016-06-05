@@ -40,7 +40,14 @@ public class AccountBalancesHelper {
      */
     public String getCurrentBalance(PostbankAPI postbankAPI, Activity activity) {
         List<Transaction> transactions = postbankAPI.getTransactions();
-        Transaction latestTransaction = transactions.get(transactions.size() - 1);
+
+        Transaction latestTransaction = null;
+        for (Transaction t : transactions) {
+            if (!t.future) {
+                latestTransaction = t;
+                break;
+            }
+        }
 
         Resources res = activity.getResources();
         String currentBalance = String.format(res.getString(R.string.current_balance), latestTransaction.balance);
