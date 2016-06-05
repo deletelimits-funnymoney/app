@@ -24,14 +24,14 @@ public class FactFactory {
         this.postbankAPI = postbankAPI;
     }
 
-    public List<Fact> groupTransactionsByCostType(Date start, Date end)
+    public List<Fact> groupTransactionsByGroup(Date start, Date end)
     {
         List <Fact> result = new LinkedList<Fact>();
 
         Set<String> groups = collectGroups(start, end);
 
         for (Date date : getDates(start, end)) {
-            result.add(aggregateTransactionsFor(date, groups));
+            result.add(aggregateTransactionsForGroups(date, groups));
         }
 
         return result;
@@ -49,7 +49,7 @@ public class FactFactory {
         return result;
     }
 
-    protected Fact aggregateTransactionsFor(Date date, Set<String> groups)
+    protected Fact aggregateTransactionsForGroups(Date date, Set<String> groups)
     {
         Fact result = new Fact();
 
