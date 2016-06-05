@@ -66,7 +66,7 @@ public class PieChartFragment extends BaseFragment {
         end.set(2016, 5, 0);
 
         Set<String> groups = f.collectGroups(start.getTime(), end.getTime());
-        List<Fact> facts = f.groupTransactionsByCostType(start.getTime(), end.getTime());
+        List<Fact> facts = f.groupTransactionsByGroup(start.getTime(), end.getTime());
         groupAmounts = new HashMap<>();
         for (String group : groups) {
             if (!group.equals("income"))
