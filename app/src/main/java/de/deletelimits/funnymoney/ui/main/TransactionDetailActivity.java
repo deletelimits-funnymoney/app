@@ -65,7 +65,7 @@ public class TransactionDetailActivity extends BaseActivity {
         TransactionMapping transactionMapping = TransactionMapping.fromJson(receivedIntent.getStringExtra("transaction"));
         Transaction transaction = transactionMapping.transaction;
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) { 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             transactionAmount.setTransitionName(receivedIntent.getStringExtra("amount_transition_name"));
             transacionReferenceName.setTransitionName(receivedIntent.getStringExtra("referenceName_transition_name"));
         }
