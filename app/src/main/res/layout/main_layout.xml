@@ -23,8 +23,9 @@
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="@string/overview_activity_title"
+            app:navigationIcon="@mipmap/ic_launcher"
             app:titleMarginTop="13dp"
-            app:titleTextColor="@color/primary_light">
+            app:titleTextColor="@android:color/white">
 
 
         </android.support.v7.widget.Toolbar>
