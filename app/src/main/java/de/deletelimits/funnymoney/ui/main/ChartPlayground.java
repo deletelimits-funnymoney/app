@@ -109,6 +109,7 @@ public class ChartPlayground extends BaseFragment {
         }
         BarDataSet set1 = new BarDataSet(barEntries, dataSetName);
         set1.setColor(ColorTemplate.rgb(color));
+        set1.setDrawValues(false);
         return set1;
     }
 
