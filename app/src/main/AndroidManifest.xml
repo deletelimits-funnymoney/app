@@ -29,6 +29,11 @@
             android:name=".ui.main.TransactionListActivity"
             android:label="@string/overview_activity_title"
             android:parentActivityName=".ui.main.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".ui.main.TransactionDetailActivity"
+            android:label="@string/overview_activity_title"
+            android:parentActivityName=".ui.main.TransactionListActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 

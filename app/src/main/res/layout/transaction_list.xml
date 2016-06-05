@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,16 +37,15 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:transitionName="total_card"
-            card_view:cardCornerRadius="4dp"
+            android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:elevation="4dp">
+            android:elevation="4dp"
+            android:transitionName="total_card"
+            card_view:cardCornerRadius="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,21 +57,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:transitionName="main_amount"
-                    android:text="470€"
                     android:layout_margin="@dimen/card_content_margin"
+                    android:text="470€"
                     android:textSize="45sp"
+                    android:transitionName="main_amount"
 
                     />
 
                 <TextView
                     android:id="@+id/total_amount"
-                    android:transitionName="total_amount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="@dimen/card_content_margin"
                     android:text="Gesamt Kontostand: 1110€"
-                    android:layout_margin="@dimen/card_content_margin"/>
+                    android:transitionName="total_amount" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
@@ -81,7 +79,7 @@
             android:id="@+id/transaction_list_recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/transaction_list_item"/>
+            tools:listitem="@layout/transaction_list_item" />
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
