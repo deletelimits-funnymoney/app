@@ -1,14 +1,11 @@
 package de.deletelimits.funnymoney.ui.main;
 
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.AttributeSet;
-import android.view.View;
 import android.widget.TextView;
 
 import javax.inject.Inject;
@@ -43,9 +40,11 @@ public class TransactionListActivity extends BaseActivity {
 
         totalBalance.setText(AccountBalancesHelper.getInstance().getCurrentBalance(postbankAPI, this));
 
-        recyclerView.setAdapter(new TransactionListAdapter(postbankAPI.getTransactionMappings(), this));
+        recyclerView.setAdapter(new TransactionListAdapter(this, postbankAPI.getTransactionMappings(), this));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
+
+
 
 }
