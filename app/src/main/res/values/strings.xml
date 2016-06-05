@@ -9,11 +9,9 @@
     <string name="fix_label">Fixe Ausgaben</string>
     <string name="variable_label">Variable Ausgaben</string>
     <string name="detail_label">Details</string>
-    <string name="plot_label">Fancy plot</string>
+    <string name="plot_label">Ausgaben: letzte 30 Tage</string>
 
     <string name="current_balance">Gesamt Kontostand: %1$s€</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="monthly_distribution">Monatliche Verteilung</string>
 
 </resources>
