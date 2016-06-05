@@ -194,7 +194,8 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_plot"
+
+                android:id="@+id/piechart"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_margin="@dimen/card_content_margin"
@@ -207,20 +208,48 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/piechart_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_content_margin"
+                        android:text="@string/monthly_distribution" />
+
+                    <fragment
+                        android:id="@+id/piechart_fragment"
+                        android:name="de.deletelimits.funnymoney.ui.main.PieChartFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        tools:layout="@layout/piechart" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_plot"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="@dimen/card_content_margin"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
                         android:id="@+id/plot_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/card_content_margin"
                         android:text="@string/plot_label" />
-
                     <fragment
                         android:id="@+id/figure_plot"
                         android:name="de.deletelimits.funnymoney.ui.main.ChartPlayground"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_margin="10dp"
                         tools:layout="@layout/fragment_chart_playground" />
                 </LinearLayout>
-
             </android.support.v7.widget.CardView>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

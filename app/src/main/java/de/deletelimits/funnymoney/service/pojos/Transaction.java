@@ -16,4 +16,6 @@ public class Transaction {
     public String transactionType;
     public String transactionDetail;
     public List<String> links;
+    public boolean future;
+
 }

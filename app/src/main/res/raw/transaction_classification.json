@@ -98,6 +98,13 @@
     }
   },
   {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367F14",
+    "classification": {
+      "group": "fun_gadgets",
+      "cost_type": "variable"
+    }
+  },
+  {
     "transactionId": "00505600B0711EE688CCC6D7E21A367E15",
     "classification": {
       "group": "living",
@@ -123,6 +130,34 @@
     "classification": {
       "group": "living",
       "cost_type": "variable"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC88D401CF67E19",
+    "classification": {
+      "group": "income",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E20",
+    "classification": {
+      "group": "communication",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E21",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
+    }
+  },
+  {
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E22",
+    "classification": {
+      "group": "apartment",
+      "cost_type": "fixed"
     }
   }
 ]

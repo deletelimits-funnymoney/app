@@ -88,6 +88,8 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
         TextView type;
         @BindView(R.id.transaction_list_item_category)
         TextView category;
+        @BindView(R.id.tranaction_list_item_disabled)
+        View disabledView;
 
         public TransactionListItemViewHolder(View itemView) {
             super(itemView);
@@ -121,6 +123,11 @@ public class TransactionListAdapter extends RecyclerView.Adapter<TransactionList
             type.setText(transactionMapping.classification.cost_type);
             type.setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
             category.setText(transactionMapping.classification.group);
+            if (transactionMapping.transaction.future) {
+                disabledView.setVisibility(View.VISIBLE);
+            } else {
+                disabledView.setVisibility(View.INVISIBLE);
+            }
         }
 
         @TargetApi(Build.VERSION_CODES.LOLLIPOP)
