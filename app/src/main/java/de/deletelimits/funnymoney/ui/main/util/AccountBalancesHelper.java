@@ -19,10 +19,13 @@ public class AccountBalancesHelper {
     private static AccountBalancesHelper mAccountBalancesHelper;
 
     //Private constructor
-    private AccountBalancesHelper(){};
+    private AccountBalancesHelper() {
+    }
 
-    public static AccountBalancesHelper getInstance(){
-        if(mAccountBalancesHelper == null){
+    ;
+
+    public static AccountBalancesHelper getInstance() {
+        if (mAccountBalancesHelper == null) {
             mAccountBalancesHelper = new AccountBalancesHelper();
         }
         return mAccountBalancesHelper;
@@ -37,7 +40,7 @@ public class AccountBalancesHelper {
      */
     public String getCurrentBalance(PostbankAPI postbankAPI, Activity activity) {
         List<Transaction> transactions = postbankAPI.getTransactions();
-        Transaction latestTransaction = transactions.get(transactions.size()-1);
+        Transaction latestTransaction = transactions.get(transactions.size() - 1);
 
         Resources res = activity.getResources();
         String currentBalance = String.format(res.getString(R.string.current_balance), latestTransaction.balance);
@@ -46,7 +49,13 @@ public class AccountBalancesHelper {
 
     public float getCurrentBalanceValue(PostbankAPI postbankAPI) {
         List<Transaction> transactions = postbankAPI.getTransactions();
-        Transaction latestTransaction = transactions.get(transactions.size()-1);
+        Transaction latestTransaction = null;
+        for (Transaction t : transactions) {
+            if (!t.future) {
+                latestTransaction = t;
+                break;
+            }
+        }
 
         return Float.valueOf(latestTransaction.balance);
     }

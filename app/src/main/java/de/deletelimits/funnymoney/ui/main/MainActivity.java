@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import java.util.Calendar;
+import java.util.List;
 
 import javax.inject.Inject;
 
@@ -24,6 +25,7 @@ import de.deletelimits.funnymoney.R;
 import de.deletelimits.funnymoney.service.FactFactory;
 import de.deletelimits.funnymoney.service.PostbankAPI;
 import de.deletelimits.funnymoney.service.pojos.Fact;
+import de.deletelimits.funnymoney.service.pojos.TransactionMapping;
 import de.deletelimits.funnymoney.ui.main.base.BaseActivity;
 import de.deletelimits.funnymoney.ui.main.util.AccountBalancesHelper;
 
@@ -74,9 +76,9 @@ public class MainActivity extends BaseActivity {
         //Set fixed and variable amounts
         FactFactory x = new FactFactory(postbankAPI);
         Calendar start = Calendar.getInstance();
-        start.set(2016, 3, 28, 0, 0, 0);
+        start.set(2016, 4, 1, 0, 0, 0);
         Calendar end = Calendar.getInstance();
-        end.set(2016, 4, 31, 0, 0, 0);
+        end.set(2016, 5, 1, 0, 0, 0);
 
         Fact f = x.groupSpendingByType(start.getTime(), end.getTime());
         variableAmountValue = (int) (f.amounts.get("variable") * -1);
@@ -84,7 +86,16 @@ public class MainActivity extends BaseActivity {
         fixedAmountValue = (int) (f.amounts.get("fixed") * -1);
         fixedAmount.setText(fixedAmountValue + "€");
 
-        availableAmountValue = currentBalanceValue - fixedAmountValue;
+
+        availableAmountValue = currentBalanceValue;
+        List<TransactionMapping> transactionMappings = postbankAPI.getTransactionMappings();
+        for (TransactionMapping t: transactionMappings) {
+            if(t.transaction.future){
+
+                availableAmountValue = availableAmountValue + (int) (Double.parseDouble(t.transaction.amount));
+            }
+        }
+
         availableAmount.setText(availableAmountValue + "€");
     }
 
