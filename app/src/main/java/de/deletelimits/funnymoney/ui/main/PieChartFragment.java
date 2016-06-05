@@ -57,6 +57,7 @@ public class PieChartFragment extends BaseFragment {
 
         pieChart.setRotationAngle(0);
         pieChart.setRotationEnabled(true);
+        pieChart.setUsePercentValues(true);
 
         FactFactory f = new FactFactory(postbankAPI);
         Calendar start = Calendar.getInstance();
@@ -68,16 +69,19 @@ public class PieChartFragment extends BaseFragment {
         List<Fact> facts = f.groupTransactionsByCostType(start.getTime(), end.getTime());
         groupAmounts = new HashMap<>();
         for (String group : groups) {
-            groupAmounts.put(group, 0.0);
+            if (!group.equals("income"))
+                groupAmounts.put(group, 0.0);
         }
         for (Fact fact : facts) {
             for (Map.Entry<String, Double> stringDoubleEntry : fact.amounts.entrySet()) {
-                groupAmounts.put(stringDoubleEntry.getKey(), groupAmounts.get(stringDoubleEntry.getKey()) + stringDoubleEntry.getValue());
+                if (stringDoubleEntry.getValue() < 0)
+                    groupAmounts.put(stringDoubleEntry.getKey(), groupAmounts.get(stringDoubleEntry.getKey()) + stringDoubleEntry.getValue());
             }
         }
         sum = 0;
         for (Map.Entry<String, Double> stringDoubleEntry : groupAmounts.entrySet()) {
-            sum += stringDoubleEntry.getValue();
+            if (stringDoubleEntry.getValue() < 0)
+                sum += stringDoubleEntry.getValue();
         }
 
         addData(facts);

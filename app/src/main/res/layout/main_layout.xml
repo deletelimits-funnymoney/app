@@ -212,7 +212,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/card_content_margin"
-                        android:text="@string/plot_label" />
+                        android:text="@string/monthly_distribution" />
 
                     <fragment
                         android:id="@+id/piechart_fragment"

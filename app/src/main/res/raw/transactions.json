@@ -365,6 +365,32 @@
   },
   {
     "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367F14",
+    "amount": "-80.89",
+    "balance": "1311.48",
+    "currency": "EUR",
+    "purpose": [
+      "Amazon.de 2620806122513074",
+      ""
+    ],
+    "bookingDate": 1462384866000,
+    "valutaDate": 1462384866000,
+    "reference": {
+      "messages": [],
+      "iban": "DE2411Z00000561652",
+      "bic": "GEN555",
+      "paymentName": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+      "links": []
+    },
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
     "transactionId": "00505600B0711EE688CCC6D7E21A367E15",
     "amount": "-18.03",
     "balance": "2481.54",
@@ -466,5 +492,113 @@
     "transactionType": "Abbuchung",
     "transactionDetail": null,
     "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC88D401CF67E19",
+    "amount": "2000.00",
+    "balance": "2300.00",
+    "currency": "EUR",
+    "purpose": [
+      "GEHALT MAERZ",
+      "EVIL CORP"
+    ],
+    "bookingDate": 1464393600000,
+    "valutaDate": 1464393600000,
+    "reference": {
+      "messages": [],
+      "iban": "DE666123123123123123",
+      "bic": "GEN666",
+      "paymentName": "Evil Corp",
+      "bankName": "Postbank",
+      "accountNumber": "666666",
+      "accountHolder": "Evil Corp",
+      "links": []
+    },
+    "transactionType": "Gutschrift",
+    "transactionDetail": null,
+    "links": []
+  }
+
+,
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E20",
+    "amount": "-24.99",
+    "balance": "3236.46",
+    "currency": "EUR",
+    "purpose": [
+      "Rechnung M211160 146484018 ",
+      "o2 sagt Danke"
+    ],
+    "bookingDate": 1464739200000,
+    "valutaDate": 1464739200000,
+    "reference": {
+      "messages": [],
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "Telefonica Germany GmbH",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Telefonica Germany GmbH",
+      "links": []
+    },
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": []
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E21",
+    "amount": "-725.00",
+    "balance": "1550.01",
+    "currency": "EUR",
+    "purpose": [
+      "Miete Musterstr. 13",
+      "April 2016"
+    ],
+    "bookingDate": 1464825600000,
+    "valutaDate": 1464825600000,
+    "reference": {
+      "messages": [],
+      "iban": "DE60100100100008020111",
+      "bic": "GEN123",
+      "paymentName": "Volker Vermieter",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "Volker Vermieter",
+      "links": []
+    },
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": [],
+    "future": true
+  },
+  {
+    "messages": [],
+    "transactionId": "00505600B0711EE688CCC6D7E21A367E22",
+    "amount": "-74.00",
+    "balance": "1476,01",
+    "currency": "EUR",
+    "purpose": [
+      "Kundennumm",
+      "er: 000204579618"
+    ],
+    "bookingDate": 1459945626000,
+    "valutaDate": 1459945626000,
+    "reference": {
+      "messages": [],
+      "iban": "DE9700000000142462",
+      "bic": "GEN555",
+      "paymentName": "RheinEnergie AG",
+      "bankName": "Postbank",
+      "accountNumber": "7007008",
+      "accountHolder": "RheinEnergie AG",
+      "links": []
+    },
+    "transactionType": "Abbuchung",
+    "transactionDetail": null,
+    "links": [],
+    "future": true
   }
 ]
