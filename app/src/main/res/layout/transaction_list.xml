@@ -21,10 +21,10 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"
             android:backgroundTint="@color/primary"
             app:title="@string/transaction_activity_title"
+            app:navigationIcon="@mipmap/ic_launcher"
             app:titleMarginTop="13dp"
-            app:titleTextColor="@color/primary_light"
+            app:titleTextColor="@android:color/white"
             app:layout_scrollFlags="scroll|enterAlways">
-
 
         </android.support.v7.widget.Toolbar>
 
