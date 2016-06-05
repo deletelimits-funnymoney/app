@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Funny Money</string>
+    <string name="app_name">MyFunMoney</string>
     <string name="overview_activity_title">Übersicht</string>
     <string name="transaction_activity_title">Transaktionen</string>
 
