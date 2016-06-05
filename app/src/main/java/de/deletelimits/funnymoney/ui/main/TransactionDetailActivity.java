@@ -5,8 +5,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -48,6 +51,9 @@ public class TransactionDetailActivity extends BaseActivity {
     @BindView(R.id.card_view)
     View cardView;
 
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+
     private int greenColor;
     private int redColor;
 
@@ -56,6 +62,7 @@ public class TransactionDetailActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.transaction_detail);
         ButterKnife.bind(this);
+        setSupportActionBar(toolbar);
 
         this.greenColor = ContextCompat.getColor(this, R.color.primary);
         this.redColor = ContextCompat.getColor(this, R.color.red);
@@ -79,4 +86,14 @@ public class TransactionDetailActivity extends BaseActivity {
         transactionDate.setText(sdf.format(transaction.bookingDate));
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mock_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
 }
