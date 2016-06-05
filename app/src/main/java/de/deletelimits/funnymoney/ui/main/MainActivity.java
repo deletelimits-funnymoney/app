@@ -13,6 +13,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Calendar;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -20,7 +21,9 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.deletelimits.funnymoney.R;
+import de.deletelimits.funnymoney.service.FactFactory;
 import de.deletelimits.funnymoney.service.PostbankAPI;
+import de.deletelimits.funnymoney.service.pojos.Fact;
 import de.deletelimits.funnymoney.service.pojos.Transaction;
 import de.deletelimits.funnymoney.ui.main.base.BaseActivity;
 import de.deletelimits.funnymoney.ui.main.util.AccountBalancesHelper;
@@ -42,6 +45,16 @@ public class MainActivity extends BaseActivity {
     @BindView(R.id.total_amount)
     TextView currentBalance;
 
+    @BindView(R.id.fix_amount)
+    TextView fixedAmount;
+
+    @BindView(R.id.variable_amount)
+    TextView variableAmount;
+
+    private int availableAmountValue;
+    private int fixedAmountValue;
+    private int variableAmountValue;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +64,24 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initOverviewData() {
+        int currentBalanceValue = (int) AccountBalancesHelper.getInstance().getCurrentBalanceValue(postbankAPI);
         currentBalance.setText(AccountBalancesHelper.getInstance().getCurrentBalance(postbankAPI, this));
+
+        //Set fixed and variable amounts
+        FactFactory x = new FactFactory(postbankAPI);
+        Calendar start = Calendar.getInstance();
+        start.set(2016, 3, 28, 0, 0, 0);
+        Calendar end = Calendar.getInstance();
+        end.set(2016, 4, 31, 0, 0, 0);
+
+        Fact f = x.groupSpendingByType(start.getTime(), end.getTime());
+        variableAmountValue = (int) (f.amounts.get("variable") * -1);
+        variableAmount.setText(variableAmountValue + "€");
+        fixedAmountValue = (int) (f.amounts.get("fixed") * -1);
+        fixedAmount.setText(fixedAmountValue + "€");
+
+        availableAmountValue = currentBalanceValue - fixedAmountValue;
+        availableAmount.setText(availableAmountValue + "€");
     }
 
 
@@ -63,14 +93,25 @@ public class MainActivity extends BaseActivity {
         Pair p2 = new Pair<>(currentBalance, "total_amount");
         Pair p3 = new Pair<>(totalCard, "total_card");
 
+        String bundleAmount;
+
+        switch (v.getId()){
+            case R.id.detail_button_overall:
+                bundleAmount = availableAmountValue + "€";
+                break;
+            case R.id.detail_button_fix:
+                bundleAmount = fixedAmountValue + "€";
+                break;
+            case R.id.detail_button_variable:
+                bundleAmount = variableAmountValue + "€";
+                break;
+            default:
+                bundleAmount = "0€";
+        }
+        intent.putExtra("amount",bundleAmount);
 
         ActivityOptionsCompat options = ActivityOptionsCompat.
                 makeSceneTransitionAnimation(this, p1, p2,p3);
         startActivity(intent, options.toBundle());
     }
-//    @OnClick(R.id.main_layout_button)
-//    void onClick() {
-//        Toast.makeText(this, "click!!", Toast.LENGTH_SHORT).show();
-//    }
-
 }

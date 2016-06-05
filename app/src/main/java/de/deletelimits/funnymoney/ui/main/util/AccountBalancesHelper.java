@@ -43,4 +43,11 @@ public class AccountBalancesHelper {
         String currentBalance = String.format(res.getString(R.string.current_balance), latestTransaction.balance);
         return currentBalance;
     }
+
+    public float getCurrentBalanceValue(PostbankAPI postbankAPI) {
+        List<Transaction> transactions = postbankAPI.getTransactions();
+        Transaction latestTransaction = transactions.get(transactions.size()-1);
+
+        return Float.valueOf(latestTransaction.balance);
+    }
 }

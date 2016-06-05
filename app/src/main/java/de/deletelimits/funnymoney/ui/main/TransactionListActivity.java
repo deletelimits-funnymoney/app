@@ -1,6 +1,7 @@
 package de.deletelimits.funnymoney.ui.main;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -23,8 +24,8 @@ public class TransactionListActivity extends BaseActivity {
     @BindView(R.id.transaction_list_recycler)
     RecyclerView recyclerView;
 
-    @BindView(R.id.available_amount)
-    TextView availableAmount;
+    @BindView(R.id.header_amount)
+    TextView headerAmount;
 
     @BindView(R.id.total_amount)
     TextView totalBalance;
@@ -38,6 +39,9 @@ public class TransactionListActivity extends BaseActivity {
         setContentView(R.layout.transaction_list);
         ButterKnife.bind(this);
 
+        Intent receivedIntent = getIntent();
+
+        headerAmount.setText(receivedIntent.getStringExtra("amount"));
         totalBalance.setText(AccountBalancesHelper.getInstance().getCurrentBalance(postbankAPI, this));
 
         recyclerView.setAdapter(new TransactionListAdapter(this, postbankAPI.getTransactionMappings(), this));
