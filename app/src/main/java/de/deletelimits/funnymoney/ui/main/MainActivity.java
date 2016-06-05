@@ -17,6 +17,7 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import de.deletelimits.funnymoney.R;
 import de.deletelimits.funnymoney.service.PostbankAPI;
 import de.deletelimits.funnymoney.ui.main.base.BaseActivity;
@@ -55,6 +56,7 @@ public class MainActivity extends BaseActivity {
         currentBalance.setText(AccountBalancesHelper.getInstance().getCurrentBalance(postbankAPI, this));
     }
 
+    @OnClick(R.id.detail_button_overall)
     public void goToTransactions(View v) {
         Intent intent = new Intent(this, TransactionListActivity.class);
 
@@ -66,6 +68,20 @@ public class MainActivity extends BaseActivity {
         ActivityOptionsCompat options = ActivityOptionsCompat.
                 makeSceneTransitionAnimation(this, p1, p2, p3);
         startActivity(intent, options.toBundle());
+    }
+
+    @OnClick(R.id.detail_button_fix)
+    public void goToTransactionsFix(View v) {
+        Intent intent = new Intent(this, TransactionListActivity.class);
+        intent.putExtra("type", "fixed");
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.detail_button_variable)
+    public void goToTransactionsVariable(View v) {
+        Intent intent = new Intent(this, TransactionListActivity.class);
+        intent.putExtra("type", "variable");
+        startActivity(intent);
     }
 
     @Override
