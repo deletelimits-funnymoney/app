@@ -1,6 +1,8 @@
 package de.deletelimits.funnymoney.service;
 
 
+import android.support.annotation.NonNull;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -68,6 +70,66 @@ public class FactFactory {
             Double newAmount = oldAmount + amount;
 
             result.amounts.put(group, newAmount);
+        }
+
+        return result;
+    }
+
+    public Fact groupSpendingByType(Date start, Date end)
+    {
+        Set<String> types = collectTypes(start, end);
+        Fact result = aggregateSpendingForTypes(start, end, types);
+
+        return result;
+    }
+
+    public Set<String> collectTypes(Date start, Date end) {
+        Set<String> result = new HashSet<String>();
+
+        List<TransactionMapping> transactionMappings = getTransactionMappingList(start, end);
+
+        for (TransactionMapping transactionMapping : transactionMappings) {
+            result.add(transactionMapping.classification.cost_type);
+        }
+
+        return result;
+    }
+
+    protected Fact aggregateSpendingForTypes(Date date, Set<String> types)
+    {
+        List<TransactionMapping> transactionMappings = getTransactionMappingList(date);
+        return aggregateSpendingForTypes(types, transactionMappings);
+    }
+
+    protected Fact aggregateSpendingForTypes(Date start, Date end, Set<String> types)
+    {
+        List<TransactionMapping> transactionMappings = getTransactionMappingList(start, end);
+        return aggregateSpendingForTypes(types, transactionMappings);
+    }
+
+    @NonNull
+    private Fact aggregateSpendingForTypes(Set<String> types, List<TransactionMapping> transactionMappings) {
+        Fact result = new Fact();
+
+        result.amounts = new HashMap<String, Double>();
+        for (String type : types) {
+            result.amounts.put(type, .0);
+        }
+
+        for (TransactionMapping transactionMapping : transactionMappings) {
+            Double amount = Double.parseDouble(transactionMapping.transaction.amount);
+
+            // Collect only spendings
+            if (amount > 0) {
+                continue;
+            }
+
+            String type  = transactionMapping.classification.cost_type;
+
+            Double oldAmount = result.amounts.get(type);
+            Double newAmount = oldAmount + amount;
+
+            result.amounts.put(type, newAmount);
         }
 
         return result;
