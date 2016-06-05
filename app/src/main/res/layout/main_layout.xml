@@ -27,7 +27,6 @@
             app:titleMarginTop="13dp"
             app:titleTextColor="@android:color/white">
 
-
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>

@@ -6,6 +6,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import javax.inject.Inject;
@@ -32,12 +35,15 @@ public class TransactionListActivity extends BaseActivity {
     @Inject
     PostbankAPI postbankAPI;
 
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.transaction_list);
         ButterKnife.bind(this);
-
+        setSupportActionBar(toolbar);
         totalBalance.setText(AccountBalancesHelper.getInstance().getCurrentBalance(postbankAPI, this));
 
         recyclerView.setAdapter(new TransactionListAdapter(this, postbankAPI.getTransactionMappings(), this));
@@ -45,6 +51,15 @@ public class TransactionListActivity extends BaseActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mock_menu, menu);//Menu Resource, Menu
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
 
 }

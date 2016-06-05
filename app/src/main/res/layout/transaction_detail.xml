@@ -28,7 +28,6 @@
             app:titleTextColor="@android:color/white"
             app:layout_scrollFlags="scroll|enterAlways">
 
-
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
