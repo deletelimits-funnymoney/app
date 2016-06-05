@@ -68,7 +68,7 @@ public class ChartPlayground extends BaseFragment {
 
         List<String> labels = new ArrayList<>();
         for (int i=0; i<30; i++) {
-            labels.add(String.valueOf(30-i));
+            labels.add("-"+String.valueOf(30-i));
         }
 
         Calendar periodStartC = Calendar.getInstance();
