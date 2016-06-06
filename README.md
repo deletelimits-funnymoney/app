@@ -1,4 +1,6 @@
-# FunnyMoney Android App
+# MyFunMoney Android App
+
+![](app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 Please visit Devpost for this [project's details](http://devpost.com/software/funnymoney).
 
